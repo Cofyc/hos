@@ -1,0 +1,4 @@
+Todo items
+----------
+* using Data.ByteString.Lazy.Char8 instead of String.
+* add fastcgi protocol support

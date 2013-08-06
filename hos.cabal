@@ -1,0 +1,31 @@
+Name:           hos
+version:        0.0.1
+License:        GPL
+License-file:   LICENSE
+Author:         Yecheng Fu <cofyc.jackson@gmail.com> 
+
+Stability:      Experimental
+Category:       Network
+Synopsis:       A http server.
+Description:    Hos is a free, open source http server.
+Homepage:       http://code.google.com/p/project-hos/
+
+Build-Type:     Custom
+Cabal-Version:  >= 1.6
+
+
+Executable      hos
+  hs-source-dirs:   src
+  main-is:          hos.hs
+  Build-Depends: base
+                , unix
+                , directory
+                , filepath
+                , datetime
+                , network
+                , bytestring
+                , containers
+                , mtl
+    
+  ghc-options:      -Wall -O2
+  ghc-prof-options: -prof -auto-all

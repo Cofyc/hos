@@ -1,0 +1,12 @@
+
+    Installation
+        $ make
+    Conventions
+        * Hierarchy 
+        * Names
+            Lowercase       Capital Uppercase       Whole uppercase
+            - hos stands for Haskell Of Server
+            hos             HOS                     HOS
+            - CGI stands for Common Gateway Interface
+            fastcgi         FastCGI                 FASTCGI
+            fcgi            FCGI                    FCGI
